@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OgrEklemeActivity">
+
+    <Button
+        android:id="@+id/buttonFotoCek"
+        android:layout_width="125dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="104dp"
+        android:text="Fotoğraf Seç"
+        app:layout_constraintEnd_toStartOf="@+id/buttonOgrnciKaydet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgrnciDersAdı" />
+
+    <EditText
+        android:id="@+id/editTextOgrnciNumara"
+        android:layout_width="205dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Numara"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgnciAdıSoyadı" />
+
+    <EditText
+        android:id="@+id/editTextOgrnciFakulte"
+        android:layout_width="207dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Fakülte Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgnciOkulAdı" />
+
+    <EditText
+        android:id="@+id/editTextOgrnciBolum"
+        android:layout_width="214dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Bölüm Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgrnciFakulte" />
+
+    <EditText
+        android:id="@+id/editTextOgnciOkulAdı"
+        android:layout_width="214dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Okul Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgrnciSinif" />
+
+    <EditText
+        android:id="@+id/editTextOgrnciSinif"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Sınıf"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgrnciNumara" />
+
+    <EditText
+        android:id="@+id/editTextOgnciAdıSoyadı"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:ems="10"
+        android:hint="Öğrencinin Adı Soyadı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFoto" />
+
+    <ImageView
+        android:id="@+id/imageViewFoto"
+        android:layout_width="195dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextOgnciAdıSoyadı"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/editTextOgrnciDersAdı"
+        android:layout_width="208dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="Ders Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOgrnciKaydet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgrnciBolum"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <Button
+        android:id="@+id/buttonOgrnciKaydet"
+        android:layout_width="118dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:text="Öğrenci Kaydet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonFotoCek"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOgrnciDersAdı" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="247dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFotoCek"
+        app:layout_constraintVertical_bias="0.134" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

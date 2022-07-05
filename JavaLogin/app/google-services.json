@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "236048338358",
+    "firebase_url": "https://yeni-8164e-default-rtdb.firebaseio.com",
+    "project_id": "yeni-8164e",
+    "storage_bucket": "yeni-8164e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236048338358:android:919a01c8462f1c3553c517",
+        "android_client_info": {
+          "package_name": "com.example.javalogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236048338358-v6pfq4s35g6tkj69cauf6cgn5qnh9beq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY0HhFB-ibb4QCWxsXiWprxsYtMu6EiwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236048338358-v6pfq4s35g6tkj69cauf6cgn5qnh9beq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

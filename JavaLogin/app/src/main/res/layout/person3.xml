@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:scrollbars="vertical"
+    app:cardCornerRadius="20dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/foto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="3dp"
+            android:text="Fotoğraf"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/foto2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sınıf1" />
+
+        <TextView
+            android:id="@+id/sınıf1"
+            android:layout_width="61dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="10dp"
+            android:text="Sınıf"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/sınıf2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numara1" />
+
+        <TextView
+            android:id="@+id/numara1"
+            android:layout_width="54dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:text="Numara"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/numara2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adsoyad1" />
+
+        <TextView
+            android:id="@+id/adsoyad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:text="Öğrenci Adı Soyadı"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/adsoyad2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/okuladı1" />
+
+        <TextView
+            android:id="@+id/okuladı1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:text="Okul Adı"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/okuladı2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ogrid1" />
+
+        <TextView
+            android:id="@+id/ogrid2"
+            android:layout_width="240dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/fakulteadı1"
+            app:layout_constraintTop_toBottomOf="@+id/fakulteadı2" />
+
+        <TextView
+            android:id="@+id/okuladı2"
+            android:layout_width="233dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/okuladı1"
+            app:layout_constraintTop_toBottomOf="@+id/ogrid2" />
+
+        <TextView
+            android:id="@+id/adsoyad2"
+            android:layout_width="233dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/adsoyad1"
+            app:layout_constraintTop_toBottomOf="@+id/okuladı2" />
+
+        <TextView
+            android:id="@+id/numara2"
+            android:layout_width="220dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/numara1"
+            app:layout_constraintTop_toBottomOf="@+id/adsoyad2" />
+
+        <TextView
+            android:id="@+id/sınıf2"
+            android:layout_width="270dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/sınıf1"
+            app:layout_constraintTop_toBottomOf="@+id/numara2" />
+
+        <TextView
+            android:id="@+id/foto2"
+            android:layout_width="268dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/foto1"
+            app:layout_constraintTop_toBottomOf="@+id/sınıf2" />
+
+        <TextView
+            android:id="@+id/bolumadı1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Bolüm Adı: "
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/bolumadı2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bolumadı2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bolumadı1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/dersadı1"
+            android:layout_width="66dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Ders Adı"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/dersadı2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bolumadı1" />
+
+        <TextView
+            android:id="@+id/dersadı2"
+            android:layout_width="236dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/dersadı1"
+            app:layout_constraintTop_toBottomOf="@+id/bolumadı2" />
+
+        <TextView
+            android:id="@+id/fakulteadı1"
+            android:layout_width="79dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Fakülte Adı"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/fakulteadı2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dersadı1" />
+
+        <TextView
+            android:id="@+id/ogrid1"
+            android:layout_width="91dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="16dp"
+            android:text="Öğrenci Id"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/ogrid2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fakulteadı1" />
+
+        <TextView
+            android:id="@+id/fakulteadı2"
+            android:layout_width="224dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/fakulteadı1"
+            app:layout_constraintTop_toBottomOf="@+id/dersadı2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_ana_ekran.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_deneme1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_deneme_person.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_deneme_person_adapter.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_ders_olusturma.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_ilk.xml" value="0.264" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_kyt.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_ogr_ekleme.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_ogrenci_ekle.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_person.xml" value="0.4" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_person_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_yoklama_alma.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/activity_yoklama_listesi.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/deneme_person.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/JavaLogin/app/src/main/res/layout/person3.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

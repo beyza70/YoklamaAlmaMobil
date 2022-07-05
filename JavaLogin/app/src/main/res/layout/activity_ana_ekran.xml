@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnaEkranActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bcc6eb"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="195dp">
+
+        <Button
+            android:id="@+id/buttonYoklamaListesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="100dp"
+            android:text="Yoklama Listesi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonYoklamaAlma"
+            app:layout_constraintVertical_bias="0.050000012" />
+
+        <Button
+            android:id="@+id/buttonYoklamaAlma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="2dp"
+            android:text="Yoklama Alma"
+            app:layout_constraintBottom_toTopOf="@+id/buttonYoklamaListesi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonDersOlusturma" />
+
+        <Button
+            android:id="@+id/buttonÖgrEkleme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="87dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="2dp"
+            android:text="Öğrenci Ekleme"
+            app:layout_constraintBottom_toTopOf="@+id/buttonDersOlusturma"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fakulteadı1" />
+
+        <TextView
+            android:id="@+id/fakulteadı1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotationX="4"
+            android:text="Ana Sayfa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07999998" />
+
+        <Button
+            android:id="@+id/buttonDersOlusturma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="2dp"
+            android:text="Ders Olusturma"
+            app:layout_constraintBottom_toTopOf="@+id/buttonYoklamaAlma"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonÖgrEkleme" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
